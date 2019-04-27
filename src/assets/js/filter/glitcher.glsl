@@ -1,3 +1,4 @@
+precision mediump float;
 uniform sampler2D texture;
 varying vec2 texCoord;
 //uniform float amount;
@@ -6,7 +7,7 @@ varying vec2 texCoord;
 
 float amount = 0.2;
 float speed = 0.5;
-float time = 1000;
+float time = 1000.0;
 float random1d(float n){
 return fract(sin(n) * 43758.5453);
 }
