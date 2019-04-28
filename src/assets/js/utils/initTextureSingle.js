@@ -4,7 +4,7 @@ export default function (gl, image, program) {
   // 对纹理图像进行y轴翻转
   gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, 1)
   // 开启0号纹理单元
-  gl.activeTexture(gl.TEXTURE0)
+  // gl.activeTexture(gl.TEXTURE0)
   // 绑定纹理对象
   gl.bindTexture(gl.TEXTURE_2D, texture)
   // 配置纹理参数
